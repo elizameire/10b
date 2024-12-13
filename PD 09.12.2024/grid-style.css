@@ -1,0 +1,33 @@
+  header {
+    background-color: rgba(104, 55, 105, 0.719);
+    text-align: center;
+    padding: 7px
+}
+  #main-container{
+    display: flex;
+    background-color: rgb(214, 174, 101);
+    grid-template-rows: 150px 150px 150px 150px;
+    gap: 5px;
+}
+   #side-content{
+    width: 30%;
+}
+   #grid-container{
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px;
+    grid-template-rows: auto auto;
+    width: 40%
+}
+  #side-content{
+    width:40%
+}
+
+nav{
+  display: flex;
+  background-color: rgba(104, 55, 105, 0.719);
+  text-align: center;
+  padding: 7px
+}
+h1{
+  text-align: center;
+}
