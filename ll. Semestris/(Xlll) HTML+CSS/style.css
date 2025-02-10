@@ -1,0 +1,48 @@
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+.nav_item a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.nav_item a.active {
+    font-weight: bold;
+}
+
+
+#main_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+#left, #right {
+    padding: 10px;
+    background-color: lightgrey;
+}
+
+
+#task_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.item {
+    padding: 10px;
+    background-color: lightgrey;
+}
