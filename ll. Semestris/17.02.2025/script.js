@@ -7,7 +7,7 @@ let y = 10;
 let summa = x+ y;
 alert("summa ir" + summa );
 console.log ("summa ir:" (x+y) );
-*/
+/*
 
 
  let number = prompt("Enter number: ")
@@ -24,9 +24,8 @@ console.log ("summa ir:" (x+y) );
 */
 
 
-
 let age=18;
-let citizenship=true
+let citizenship=tru
 if (age>=18 && citizenship ==true)
 {
     console.log("Var balsot");
